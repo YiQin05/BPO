@@ -1,0 +1,172 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+        color: white;        
+    }
+    a:hover{
+        text-decoration:underline;
+    }
+     .head{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(56,46,44);
+        position: relative;
+        
+     } 
+     .head .logo{
+        padding-top: 15px;
+        padding-left: 40px;
+        
+     } 
+    .summa{
+        font-size: 18px;
+        color: white;
+        position: absolute; 
+        top: 70px; 
+        left: 150px;      
+     } 
+     .summa span{
+        font-size: 12px;
+     }
+     .search{
+        position: absolute;
+        top: 60px;
+        right: 80px;
+        width: 199px;
+
+     }
+     .search input{
+        width: 169px;
+        height: 30px;
+        background-color: rgb(102,102,102);
+        border: 0px;
+
+     }
+     .search img{
+        position: absolute;
+        right: 0px;
+        border: 0px;
+     }
+     .navi{
+        position: relative;
+        height:46px;
+        background: -webkit-linear-gradient(bottom,rgb(164,20,31),rgb(231,29,43));  
+        background: -o-linear-gradient(bottom,rgb(164,20,31),rgb(231,29,43));  
+        background: -moz-linear-gradient(bottom,rgb(164,20,31),rgb(231,29,43));  
+        background: -mos-linear-gradient(bottom,rgb(164,20,31),rgb(231,29,43));  
+        background: linear-gradient(bottom,rgb(164,20,31),rgb(231,29,43));
+        min-width: 1253px; 
+     }
+     .navi div{
+        margin-left:  50px; 
+
+     }
+     
+     .navi div .menu-item{
+        float: left;
+        color: white;
+        font-size: 15px;
+        margin-top: 13px;
+        margin-left: 50px;
+     }
+    
+    
+
+     /*.navi div .link,.line{
+        float: left;
+        color: white;
+        font-size: 15px;
+        
+     }*/
+     .navi div .clear{
+        clear: both;
+     }
+     /*.navi div .link{
+        margin-top: 13px;
+     }*/
+     .navi div .first{
+        margin-left: 0px;
+     }
+     .navi .line{
+        margin-left: 100px;
+        background: linear-gradient(to top, rgb(159,3,6), rgb(204,4,8));
+        -webkit-background-clip: text;
+        color: transparent;        
+        font-size: 28px;
+        margin-top: 2px;
+     }
+     .footer{
+        background: url("http://120.79.165.149/bpo/wp-content/themes/BPO/image/bottom2_1914x220.png");
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        color: rgb(215,215,217);  
+        position: absolute; 
+        bottom: 0;
+        left: 0;
+     }
+
+     .footer .right{
+        font-size: 13px;
+        position: absolute; 
+        bottom: 20px;  
+        left: 38px;
+     }     
+     .footer .footForm{
+        position: absolute;
+        left: 400px;
+     }
+     .footForm .table tr td{
+        width: 300px;
+     }
+     .footForm .table .title{
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        height: 45px;
+     }
+     .footForm .table .about{
+        height: 25px;
+     }
+     .banner{
+        padding-top: 45px;
+        height: 500px;
+     }
+    .aboutUsContai{
+        background:url("http://120.79.165.149/bpo/wp-content/themes/BPO/image/about_us_bg_1150x290.png");
+        color: rgb(215,215,217);
+    }
+    .aboutUs{ 
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+
+    }
+    .intro{
+        letter-spacing: 2px;
+        position: relative;
+        left: 50%;
+        margin-left: -470px;
+        padding-bottom: 40px;
+        color: white;
+        font-family: "宋体";
+    }
+    .intro span{
+        font-family: "Times New Roman";
+        font-weight: bold;
+    }
+    
+
+    .content {
+                min-height:100%;
+                position:relative;
+                width:100%;
+                padding-bottom:200px;
+            }
+    p{
+        padding-top: 45px;
+    }
+
